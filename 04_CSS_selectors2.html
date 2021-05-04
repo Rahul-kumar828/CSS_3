@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS selectors 2</title>
+    <style>
+        input[type="text"]{
+            background-color: blue;
+            transition: all 0.5s;
+
+        }
+        input[type="text"]:focus
+        {
+            background-color: orange;
+            color: white;
+            font-size: 18px;
+
+        }
+
+
+        input[type="password"]{
+            background-color: lightsalmon;
+
+        }
+        input[type="submit"]{
+            background-color: green ;
+            transition: all 0.5s;
+        }
+        input[type="submit"]:hover{
+            background-color:red ;
+            color: white;
+            padding: 14px 25px;
+        }
+    </style>
+</head>
+<body>
+<!--attribute selector-->
+<!--pseudo selector-->
+<form>
+    <lable>User Name</lable>
+    <input type="text">
+    <br>
+    <lable>Password</lable>
+    <input type="password">
+    <br>
+    <input type="submit">
+</form>
+
+
+
+</body>
+</html>

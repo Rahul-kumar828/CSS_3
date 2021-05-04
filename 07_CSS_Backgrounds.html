@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS backgrounds</title>
+    <style>
+        body{
+            margin-bottom: 5000px;
+        }
+        #bg-colour{
+            background-color: lime;
+        }
+        #bg-image{
+            box-shadow: 0 0 10px black;
+            padding: 10px;
+            width: 500px;
+            background-image: url("../imag/image4.jpeg");
+            color: white;
+        }
+        #bg-repeat{
+            width: 500px;
+            height: 300px;
+            box-shadow: 0 0 10px black;
+
+            background:rosybrown url("../imag/image3.jpeg")  repeat-y  scroll  top right ;
+        }
+        #bg-scroll{
+            height: 250px;
+            box-shadow: 0 0 10px;
+            background: rosybrown url("../imag/image4.jpeg") no-repeat fixed center;
+        }
+        #bg-size{
+            width: 500px;
+            height: 300px;
+            box-shadow: 0 0 10px black;
+            background-image: url("../imag/image2.jpg");
+            background-size: cover;
+
+
+        }
+        #grd{
+            width: 500px;
+            height: 500px;
+            box-shadow: 0 0 10px black;
+            background: linear-gradient(45deg,black,white,black);
+        }
+    </style>
+</head>
+<body>
+<!--1background colour,background image,background repeat,background position,background attachment
+(scroll fixed), shortcut background only-->
+
+<h2>background colour</h2>
+<div id="bg-colour">
+    <h1>i am a teal colour background</h1>
+</div>
+<h2>background attachment</h2>
+<div id="bg-scroll">
+
+</div>
+<h2>background image</h2>
+<div id="bg-image">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores aut, culpa cum, dicta dignissimos esse et eum illo illum inventore labore maiores nam nostrum obcaecati quod! Delectus dicta dignissimos enim molestiae non perferendis, quibusdam repellendus sed! Adipisci architecto assumenda eveniet ex molestias mollitia vel. Animi culpa incidunt magni porro.</p>
+</div>
+<h2>background repeat</h2>
+<div id="bg-repeat">
+
+</div>
+<h2>background position</h2>
+<div id="bg-position">
+
+</div>
+<h2>background size</h2>
+<div id="bg-size">
+
+</div>
+<h2>Gradient</h2>
+<div id="grd">
+
+</div>
+</body>
+</html>
