@@ -1,0 +1,37 @@
+body{
+    background-color: lightcoral;
+}
+.container{
+    border-radius: 10px;
+    width: 300px;
+    height: 500px;
+    margin:100px auto;
+    box-shadow: 0 5px 10px black;
+    position: relative;
+    overflow: hidden;
+}
+.container img{
+    width: inherit;
+    height: inherit;
+
+    transition: all 0.5s;
+
+}
+.container .content{
+    position: absolute;
+    bottom: -40%;
+    background: linear-gradient(40deg,blueviolet,deeppink);
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    font-family: Arial,sans-serif;
+    transition: all 0.5s;
+}
+.container:hover .content{
+    bottom: 0%;
+}
+.container:hover img {
+
+    transform: translateY(-40%);
+
+}

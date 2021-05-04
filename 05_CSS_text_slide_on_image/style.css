@@ -1,0 +1,46 @@
+body{
+    background-color: teal;
+}
+.container{
+
+    width: 450px;
+    height: 300px;
+    margin:  100px auto;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px black;
+    position: relative;
+    overflow: hidden;
+}
+.container img{
+    width: inherit;
+    height: inherit;
+    border-radius: 10px;
+    transform: translateX(50%);
+    transition: all 0.5s;
+}
+.container:hover img{
+    transform: translateX(0%);
+}
+.container .content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+    width: 50%;
+    height: 100%;
+    font-family: Arial,sans-serif;
+    background: linear-gradient(45deg,blueviolet,deeppink);
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 10px 0 0 10px;
+    transform: translateX(0%);
+    transition: all 0.5s;
+}
+.container:hover .content{
+    transform: translateX(-100%);
+
+}
+.container .content p{
+    font-size: 18px;
+}
+

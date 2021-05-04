@@ -1,0 +1,39 @@
+.register{
+    background: linear-gradient(45deg,blue,violet,pink);
+    font-family: Arial,sans-serif;
+    width: 300px;
+    color: white;
+    padding: 15px;
+    margin:50px auto;
+}
+.register h2{
+    text-align: center;
+}
+.form_group label{
+    display: block;
+    margin: 10px 0 ;
+}
+.form_control{
+    font-size: 18px;
+    height: 35px;
+   outline: none;
+    border: none;
+    width: 290px;
+}
+.submit_btn{
+    margin: 3px 0;
+    background: linear-gradient(45deg,pink,red);
+    color: white;
+    font-size: 18px;
+    padding: 10px 25px;
+    width: 290px;
+    border: none;
+    box-shadow: 0 5px 10px black;
+
+}
+.fa-user-circle{
+    font-size: 18px;
+}
+.form_control:focus{
+    background-color: #fcc3e4;
+}
